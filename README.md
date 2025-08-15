@@ -16,3 +16,20 @@ This Python script calculates the final price of an item after applying a discou
 
 ## Code Explanation
 
+# Apply discount if discount_percent is 20 or greater
+if discount_percent >= 20:
+    finalPrice = price - discount
+else:
+    finalPrice = price
+    
+return finalPrice
+
+
+## Notes
+- Make sure to enter valid numeric values for price and discount percentage.
+- The output price is shown in Kenyan Shillings (Ksh).
+- Discounts below 20% will not be applied as per the program logic.
+
+## License
+This project is provided as-is for educational purposes.
+
