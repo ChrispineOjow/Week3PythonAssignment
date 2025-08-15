@@ -6,7 +6,7 @@ def calculate_discount(price, discount_percent):
         finalPrice = price
     return finalPrice
 
-price = float(input("Enter the price of the item: "))
+price = float(input("Enter the price of the item:"))
 discount_percent = float(input("Enter the discount percentage: "))
 
-print(f"{calculate_discount(price, discount_percent):.2f} Ksh")
+print(f" {calculate_discount(price, discount_percent):.2f} Ksh")
