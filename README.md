@@ -14,7 +14,7 @@ This Python script calculates the final price of an item after applying a discou
 3. Enter the discount percentage when prompted.
 4. The script will calculate and display the final price after applying the discount.
 
-## Code Explanation
+# Code Explanation
 
 # Apply discount if discount_percent is 20 or greater
 if discount_percent >= 20:
